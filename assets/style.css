@@ -246,6 +246,13 @@ footer{
 
 }
 
+.link-card{
+
+     text-decoration: none;
+     color: var(--claro);
+     
+}
+
 .formulario-contato {
 
     max-width: 600px;
