@@ -1,9 +1,9 @@
 function enviarWhats(event) {
     event.preventDefault()
 
-const nome = document.getElementById('nome');
+const nome = document.getElementById('nome').value;
 
-const mensagem = document.getElementById('mensagem');
+const mensagem = document.getElementById('mensagem').value;
 
 const telefone = '5521970665385';
 const texto = `Olá! Sou o ${nome}, ${mensagem}`;
