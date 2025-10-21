@@ -17,3 +17,10 @@ window.open(url, '_blank')
 console.log(url);
 
 }
+
+document.querySelectorAll('.projetos-card').forEach(card => {
+  card.addEventListener('click', () => {
+    const link = card.getAttribute('data-link');
+    window.open(link, '_blank');
+  });
+});
